@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login e Tela de Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="user signinBx">
+                <div class="imgBx"><img src="img2.jpg" alt="Lamp"></div>
+                <div class="formBx">
+                    <form>
+                        <h2>Entre</h2>
+                        <input type="text" name="" placeholder="Usuário">
+                        <input type="password" name="" placeholder="Senha">
+                        <input type="submit" name="" value="Acessar">
+                        <p class="signup">Não tem conta ? <a href="#" onclick="toggleForm();">Cadastre-se</a></p>
+                    </form>
+                </div>
+            </div>
+
+            <div class="user signupBx">
+                <div class="formBx">
+                    <form>
+                        <h2>Criar Conta</h2>
+                        <input type="text" name="" placeholder="Usuário">
+                        <input type="email" name="" placeholder="E-mail">
+                        <input type="password" name="" placeholder="Senha">
+                        <input type="password" name="" placeholder="Confirme sua Senha">
+                        <input type="submit" name="" value="Registrar">
+                        <p class="signup">Já tem uma conta ? <a href="#" onclick="toggleForm();">Entre</a></p>
+                    </form>
+                </div>
+                <div class="imgBx"><img src="img1.jpg" alt="Lamp"></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
